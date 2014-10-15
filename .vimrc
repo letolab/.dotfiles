@@ -16,10 +16,9 @@ set nocompatible " so Vi (the precursor to Vim) is pretty bad, we don't want tha
 
 filetype off "don't delete from here...
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-Plugin 'gmarik/vundle'
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
 
 " below are some plugins to make your life easier. uncomment and :BundleInstall
 " when you feel brave enough. they are all pretty frickin usefull.
