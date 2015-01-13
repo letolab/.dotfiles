@@ -37,7 +37,7 @@ so your three basic programs are `vim`, `tmux -2`, and `tig`
 
 `vim` is your text editor and or IDE, it does all of the things and is badass.
 
-`tmux -2` is a terminal based widow/buffer manger it means you can be badass with vim (the `-2` suffix make tmux use 256 colors in terminal).
+`tmux -2` is a terminal based widow/buffer manager it means you can be badass with vim (the `-2` suffix make tmux use 256 colors in terminal).
 
 `tig` is cool git viewer in curses, it means you can get on with learning vim without thinking about git to much.
 
