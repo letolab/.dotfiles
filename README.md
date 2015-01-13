@@ -1,12 +1,12 @@
 Leto CLI dotfiles
 =================
 
-a basic set of sanity dot files to start off some of your important CLI program's config files.
+A basic set of sanity dot files to start off some of your important CLI program's config files.
 
 Pre-install
 -----------
 
-mac
+OS X
 ```
 brew install vim
 brew install tmux
@@ -14,7 +14,7 @@ brew install tig
 brew install reattach-to-user-namespace
 ```
 
-linux
+Linux
 ```
 sudo apt-get install vim-gtk
 sudo apt-get install tmux
@@ -35,21 +35,21 @@ Programs
 ---------------
 so your three basic programs are `vim`, `tmux -2`, and `tig`
 
-`vim` is your text editor and or IDE, it does all of the things and is baddass.
+`vim` is your text editor and or IDE, it does all of the things and is badass.
 
-`tmux -2` is a terminal based widow/buffer manger it means you can be baddass with vim (the `-2` suffix make tmux use 256 colors in terminal)
+`tmux -2` is a terminal based widow/buffer manger it means you can be badass with vim (the `-2` suffix make tmux use 256 colors in terminal).
 
-`tig` is cool git viewer in curses, it means you can get on with learning vim without thinking about git to much
+`tig` is cool git viewer in curses, it means you can get on with learning vim without thinking about git to much.
 
 Important Changed Keybinds
 ------------------
 `CTRL-a` is your tmux prefix, all tmux commands are prefixed by this keystroke (not CTRL-b which is default).
 
-`ALT-<left|right|up|down>` resizes tmux panes
+`ALT-<left|right|up|down>` resizes tmux panes.
 
-`CTRL-a v` opens a tmux vertical split
+`CTRL-a v` opens a tmux vertical split.
 
-`CTRL-a h` opens a tmux horizontal split
+`CTRL-a h` opens a tmux horizontal split.
 
 *optional (recomended)* bind your capslock key to ESC: https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en
 
